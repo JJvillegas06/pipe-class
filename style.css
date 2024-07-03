@@ -1,0 +1,31 @@
+body{
+    background-color: antiquewhite;
+}
+.card{
+    margin: 100px auto;
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    
+}
+
+.preguntas{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:15px;
+} 
+.respuestas{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    gap:15px;
+}
